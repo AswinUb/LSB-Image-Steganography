@@ -271,6 +271,7 @@ Status encode_magic_string(const char *magic_string, EncodeInfo *encInfo)
     return e_success;
 }
 
+
 Status encode_secret_file_extn_size(long extn_size, EncodeInfo *encInfo)
 {
     char buffer[32];
